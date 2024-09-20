@@ -7,6 +7,7 @@ public class CalculatorServiceImpl implements CalculatorService {
         return "Добро пожаловать в калькулятор";
     }
 
+
     @Override
     public String plus(Integer num1, Integer num2) {
         if (num1 == null || num2 == null) {

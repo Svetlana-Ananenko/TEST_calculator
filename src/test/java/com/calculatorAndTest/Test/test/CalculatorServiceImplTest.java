@@ -17,6 +17,7 @@ public class CalculatorServiceImplTest {
         testCalculator = new CalculatorServiceImpl();
     }
 
+
     @Test
     public void testPlusWithNullNumber1() {
         assertThrows(NullPointerException.class, () -> testCalculator.plus(null, testNumber));
